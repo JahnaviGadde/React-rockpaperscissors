@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Capriola&display=swap");
+body {
+    background: #303030;
+}
+
+.App {
+    color: #ffd700;
+    font-family: "Capriola", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 2pt;
+}
+
+.App img.start {
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    margin: 50px;
+    background-color: #303030;
+}
+
+.App .Game {
+    display: flex;
+    letter-spacing: 2pt;
+}
+
+.App .Game .Player {
+    flex-grow: 1;
+}
+
+.App .Game .Computer {
+    flex-grow: 1;
+}
+
+.App .Game .Player span {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.75em;
+}
+
+.App .Game .Player img {
+    max-width: 200px;
+    margin: 0 15px 15px;
+    display: block;
+}
+
+.App .Game .Player.selected img,
+.App .Game img {
+    max-width: 250px;
+    margin: auto;
+}
+
+.App pre {
+    padding: 10px;
+    text-align: left;
+    font-size: 20pt;
+    letter-spacing: normal;
+}
+
+.App .Results {
+    letter-spacing: normal;
+    font-size: 30px;
+}
+
+.App .Results img {
+    display: block;
+    max-width: 100px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.App input {
+    font-family: "Capriola", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    width: 250px;
+    margin: 0 auto 25px;
+    padding: 10px;
+    line-height: 1;
+    background-color: #eef;
+    border-color: transparent;
+    border-radius: 4px;
+    display: block;
+}
+
+button {
+    background-color: #ffd700;
+    color: #303030;
+    border-color: transparent;
+    border-radius: 5px;
+    height: 35px;
+    width: 80px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 20px auto;
+    display: block;
+}
